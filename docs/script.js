@@ -47,18 +47,7 @@ map.on('load', () => {
         url: "pmtiles://https://x.optgeo.org/a.pmtiles",
         attribution: '© <a href="https://github.com/amx-project">法務省地図XMLアダプトプロジェクト</a>'
     });
-//代表点のアウト
-    // map.addLayer({
-        //     "id": "daihyo",
-        //     "source": "pmtiles",
-        //     "source-layer": "daihyo",
-        //     "type": "circle",
-        //     'paint': {
-            //         'circle-color': '00FFCC',
-            //         'circle-blur': 0.5,
-            //         'circle-radius': 3
-            //     }
-            // }); 
+
 //代表点の中身 
 map.addLayer({
     "id": "daihyo2",
