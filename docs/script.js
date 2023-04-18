@@ -13,10 +13,10 @@ var map = new maplibregl.Map({
     map.addSource("mito", {
         type: "vector",
         tiles: [
-            "https://magn01ia.github.io/fudevt/mito/{z}/{x}/{y}.pbf"
+            "https://magn01ia.github.io/fudevt/mito/xyz/{z}/{x}/{y}.pbf"
         ],
-        minzoom: 10,
-        maxzoom: 14, //ここでソースのズームレベルを指定してやらないとオーバーズーミングが効かない
+        minzoom: 14,
+        maxzoom: 16, //ここでソースのズームレベルを指定してやらないとオーバーズーミングが効かない
     });
     map.addLayer({
         id: "fude",
