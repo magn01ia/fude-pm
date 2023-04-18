@@ -1,4 +1,4 @@
-# fudevt
+# fude-pm
 登記所備付地図をベクトルタイルで遊ぶ用。  
 G空間情報センターから公開されている登記所備付地図より作成。  
 https://magn01ia.github.io/fudevt/  
