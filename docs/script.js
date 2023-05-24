@@ -38,14 +38,14 @@ map.addControl(new maplibregl.FullscreenControl());
 //PMTilesプラグインの追加
 let protocol = new pmtiles.Protocol();
 maplibregl.addProtocol("pmtiles", protocol.tile);
-const p = new pmtiles.PMTiles("https://x.optgeo.org/a.pmtiles")
+const p = new pmtiles.PMTiles("https://x.optgeo.org/ipfs/QmTZHWMAnRC5zNiNvdVuTDacThKkj4jKbwsZtKQkAC4R69")
 protocol.add(p);
 map.on('load', () => {
       // 法務省地図XMLベクトルタイル追加
       map.addSource("pmtiles", {
         type: "vector",
-        url: "pmtiles://https://x.optgeo.org/a.pmtiles",
-        attribution: '© <a href="https://github.com/amx-project">法務省地図XMLアダプトプロジェクト</a>'
+        url: "pmtiles://https://x.optgeo.org/ipfs/QmTZHWMAnRC5zNiNvdVuTDacThKkj4jKbwsZtKQkAC4R69",
+        attribution: '<a href="https://github.com/amx-project">法務省地図XMLアダプトプロジェクト</a>'
     });
 
 //代表点の中身 
