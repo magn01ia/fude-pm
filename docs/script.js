@@ -44,7 +44,7 @@ map.on('load', () => {
       // 法務省地図XMLベクトルタイル追加
       map.addSource("pmtiles", {
         type: "vector",
-        url: "pmtiles://https://x.optgeo.org/ipfs/QmTZHWMAnRC5zNiNvdVuTDacThKkj4jKbwsZtKQkAC4R69",
+        url: "pmtiles://https://ipio.nchc.org.tw/ipfs/QmTZHWMAnRC5zNiNvdVuTDacThKkj4jKbwsZtKQkAC4R69",
         attribution: '<a href="https://github.com/amx-project">法務省地図XMLアダプトプロジェクト</a>'
     });
 
